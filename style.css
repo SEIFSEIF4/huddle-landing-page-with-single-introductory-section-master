@@ -30,6 +30,7 @@ body {
 	align-items: center;
 	background: var(--Violet-color) url(images/bg-mobile.svg) no-repeat;
 	background-size: cover;
+	height: 100vh;
 }
 
 .container {
