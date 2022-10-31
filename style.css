@@ -124,20 +124,19 @@ body {
 	body {
 		background: var(--Violet-color) url(images/bg-desktop.svg) no-repeat;
 		background-size: cover;
+		height: 100vh;
 	}
 	.container .text {
 		display: grid;
 		align-items: center;
 		gap: 30px;
 		/* grid-template-columns: repeat(2, 44rem); */
-		/*grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));*/
-		grid-template-columns:2fr 1fr;
+		/* grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr)); */
+		grid-template-columns: 2fr 1.5fr;
 		padding-top: 3.75rem;
 	}
 	.container .heading {
 		text-align: start;
-		flex-shrink: 1;
-}
 	}
 	.container .text a:first-of-type {
 		margin: 0 0 0 1.5rem;
@@ -146,14 +145,13 @@ body {
 	.container .social {
 		justify-content: flex-end;
 		margin-right: 5rem;
-		margin-bottom: 5rem;
 	}
 	.container .text img {
 	}
 	.container .text h1 {
 		font-weight: 600;
 		font-family: "Poppins", sans-serif;
-		font-size: 55px;
+		font-size: 2.8125rem;
 	}
 	.container .text p {
 		margin-inline-end: 9.6875rem;
