@@ -130,8 +130,9 @@ body {
 		align-items: center;
 		gap: 30px;
 		/* grid-template-columns: repeat(2, 44rem); */
-		grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
-		padding-top: 18.75rem;
+		/*grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));*/
+		grid-template-columns:2fr 1fr;
+		padding-top: 3.75rem;
 	}
 	.container .heading {
 		text-align: start;
