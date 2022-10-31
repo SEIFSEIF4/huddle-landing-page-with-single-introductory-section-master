@@ -135,6 +135,8 @@ body {
 	}
 	.container .heading {
 		text-align: start;
+		flex-shrink: 1;
+}
 	}
 	.container .text a:first-of-type {
 		margin: 0 0 0 1.5rem;
@@ -143,6 +145,7 @@ body {
 	.container .social {
 		justify-content: flex-end;
 		margin-right: 5rem;
+		margin-bottom: 5rem;
 	}
 	.container .text img {
 	}
